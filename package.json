@@ -1,0 +1,14 @@
+{
+  "name": "Pump or Dump",
+  "version": "1.0.0",
+  "description": "The most impressively (useless) awesome pump and dump web app you will ever see",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.2"
+  }
+}

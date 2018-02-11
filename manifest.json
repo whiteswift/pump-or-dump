@@ -1,0 +1,28 @@
+{
+    "name": "Pump or Dump",
+    "short_name": "Pump or Dump",
+    "icons": [
+      {
+        "src": "assets/logo_144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "assets/logo_256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "assets/logo_512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "index.html",
+    "scope": "./",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#111",
+    "theme_color": "#111"
+  }
+  
