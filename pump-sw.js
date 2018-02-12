@@ -1,16 +1,14 @@
-// v0.1
+// v1.0
 
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open('pump').then(cache => {
       return cache.addAll([
         '',
-        '/manifest.json',
-        '/index.html',
-        '/assets/style.css',
-        '/assets/logo_144.png',
-        '/assets/logo_256.png',
-        '/assets/logo_512.png'
+        'manifest.json',
+        'index.html',
+        'style.css',
+        'favicon.png'
       ])
       .then(() => self.skipWaiting());
     })
